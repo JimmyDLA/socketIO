@@ -1,0 +1,3 @@
+rootProject.name = 'LiveServer'
+
+include ':app'
