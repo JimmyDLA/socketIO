@@ -4,8 +4,8 @@ import { StyleSheet, Text, View } from 'react-native';
 export default class App extends Component{
   render(){
     return(
-      <View >
-        <Text>
+      <View style={styles.container}>
+        <Text style={styles.welcome}>
           Hello World!
         </Text>
       </View>
@@ -21,7 +21,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 100,
     textAlign: 'center',
     margin: 10,
   },
